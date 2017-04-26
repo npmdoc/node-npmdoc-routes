@@ -1,6 +1,6 @@
 # npmdoc-routes
 
-#### api documentation for  [routes (v2.1.0)](https://github.com/aaronblohowiak/routes.js)  [![npm package](https://img.shields.io/npm/v/npmdoc-routes.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-routes) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-routes.svg)](https://travis-ci.org/npmdoc/node-npmdoc-routes)
+#### basic api documentation for  [routes (v2.1.0)](https://github.com/aaronblohowiak/routes.js)  [![npm package](https://img.shields.io/npm/v/npmdoc-routes.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-routes) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-routes.svg)](https://travis-ci.org/npmdoc/node-npmdoc-routes)
 
 #### Minimalist route matching for javascript
 
@@ -64,7 +64,8 @@
         "prepublish": "mkdir -p dist/ && browserify --require ./index --standalone routes > dist/routes.js",
         "test": "make test"
     },
-    "version": "2.1.0"
+    "version": "2.1.0",
+    "bin": {}
 }
 ```
 
